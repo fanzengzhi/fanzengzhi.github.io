@@ -22,11 +22,11 @@ nav_menu:
     url: https://github.com/fanzengzhi
     icon: /i/icons.svg#github
     outbound: true      # this key sets a link to open in a new window.
-  - name: Contact
-    scheme: mailto      # these keys enable email obfuscation.
-    handle: hello       # you know, to protect you from bots. (handle and domain
-    domain: github.com  # are separated in case bots crawl GitHub repos, too.)
-    icon: /i/icons.svg#email
+  # - name: Contact
+  #   scheme: mailto      # these keys enable email obfuscation.
+  #   handle: hello       # you know, to protect you from bots. (handle and domain
+  #   domain: github.com  # are separated in case bots crawl GitHub repos, too.)
+  #   icon: /i/icons.svg#email
 
 # Objects listed here will appear on the /projects.html page.
 # projects:
