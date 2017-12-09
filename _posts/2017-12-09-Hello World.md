@@ -2,7 +2,7 @@
 title: Hello World！
 teaser: Just say hi.
 category: intro
-tags: [markdown, workflow, Test]
+tags: [markdown, workflow, test]
 ---
 
 Hello World!
