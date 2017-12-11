@@ -2,7 +2,7 @@ title: Fan Zengzhi                          # used in <title> tag & site header
 author: Fan Zengzhi                        # used in a <meta> tag & /feed.xml
 description: >                              # used in a <meta> tag & /feed.xml
   Graphics programmer, lakers fan.
-slogan: Graphics Programmer                           # used in site header, beside title
+slogan: RealLight                           # used in site header, beside title
 avatar: /i/avatar.png                       # used as portrait in site header
 banner: /i/mountains.svg                    # used as background in site header
 url: http://fanzengzhi.github.io              # used by plugins to generate feed.xml and sitemap.xml
@@ -19,6 +19,10 @@ nav_menu:
   #   url: /projects
   #   icon: /i/icons.svg#portfolio
   - name: GitHub
+    url: https://github.com/fanzengzhi
+    icon: /i/icons.svg#github
+    outbound: true      # this key sets a link to open in a new window.
+  - name: Me
     url: https://github.com/fanzengzhi
     icon: /i/icons.svg#github
     outbound: true      # this key sets a link to open in a new window.
