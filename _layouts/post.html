@@ -21,7 +21,7 @@ layout: default
     {{ content }}
   </div>
   <div class="post__frame">
-	{% if page.refs %}{% for ref in page.refs %} <iframe width="640" height="360" frameborder="0" src="{{ref}}" allowfullscreen=""></iframe>{% endfor %}{% endif %}
+	{% if page.refs %}{% for ref in page.refs %} <iframe width="640" height="360" frameborder="0" src={{ref}} allowfullscreen=""></iframe>{% endfor %}{% endif %}
   </div>
 </main>
 
