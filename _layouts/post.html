@@ -19,6 +19,7 @@ layout: default
   </div>
   <div class="post__body">
     {{ content }}
+	{% if page.ref %}{% for re in page.ref %}<iframe width="640" height="360" frameborder="0" src="{{re}}" allowfullscreen=""></iframe>{% endfor %}{% endif %}
   </div>
 </main>
 
