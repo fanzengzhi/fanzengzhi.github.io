@@ -16,7 +16,6 @@ layout: default
     {% if page.category %} <a href="{{ site.baseurl }}/category/{{ page.category }}" class="post__category">{{ page.category }}</a>{% endif %}
     {% if page.tags %}{% for tag in page.tags %} <a href="{{ site.baseurl }}/tag/{{ tag }}" class="post__tag">{{ tag }}</a>{% endfor %}{% endif %}
     </div>
-	{% if page.ref %}{% for re in page.ref %}<iframe width="640" height="360" frameborder="0" src="{{re}}" allowfullscreen=""></iframe>{% endfor %}{% endif %}
   </div>
   <div class="post__body">
     {{ content }}
