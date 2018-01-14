@@ -1,9 +1,11 @@
 ---
-title: Simulate and render millions of grass blades
+title: Grass simulation and rendering
 teaser: This is a paper I published in 2015.
 category: graphics
 tags: [graphics, rendering]
 ---
+
+Simulate and render millions of grass blades
 
 This paper is about large scale grass simulation and rendering and was published on I3D 2015, February 27 – March 01, 2015, San Francisco, CA. 
 
